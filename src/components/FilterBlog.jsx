@@ -14,7 +14,7 @@ const FilterBlog = ({ activeFilter, handleFilterChange }) => {
               ? "bg-indigo-500 text-white border-indigo-500"
               : "bg-transparent text-gray-300 border-gray-600 hover:bg-gray-700 hover:text-white"
           }`}
-          onClick={() => handleFilterChange("all")}
+          onClick={() => handleFilterChange("All")}
         >
           All
         </button>
